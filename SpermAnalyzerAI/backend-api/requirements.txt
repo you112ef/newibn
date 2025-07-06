@@ -1,16 +1,16 @@
 # FastAPI والخادم
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
-python-multipart==0.0.6
+python-multipart==0.0.18
 
 # تحليل الصور والذكاء الاصطناعي
 ultralytics==8.0.196
 opencv-python==4.8.1.78
 opencv-contrib-python==4.8.1.78
-torch==2.1.0
+torch==2.7.1
 torchvision==0.16.0
 numpy==1.24.3
-Pillow==10.0.1
+Pillow==10.3.0
 scikit-image==0.21.0
 
 # تتبع الكائنات
@@ -60,4 +60,4 @@ pytest-asyncio==0.21.1
 httpx==0.25.0
 
 # Docker
-gunicorn==21.2.0
+gunicorn==23.0.0
